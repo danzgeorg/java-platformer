@@ -60,4 +60,4 @@ data/                 Sprites, backgrounds and sounds
 ## Credits
 
 Built by Daniel Georgiev as a university project at City, University of London. Physics engine: CityEngine (City, University of London), built on JBox2D.
-<!-- Credit the sources of the sprite and sound assets here if you didn't make them. -->
+Character, enemy, item and background art: [Pixel Adventure 1 and 2](https://pixelfrog-assets.itch.io/pixel-adventure-1) by [Pixel Frog](https://x.com/PixelFrogStudio)
