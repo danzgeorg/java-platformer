@@ -3,7 +3,7 @@
 A three-level 2D platformer written in **Java**, using Swing for the window and **CityEngine** (City, University of London's teaching wrapper around the JBox2D physics engine) for physics and collisions.
 
 <!-- Replace with a gameplay screenshot or GIF: upload it to docs/screenshot.png -->
-[Gameplay screenshot](Gameplay.png)
+![Gameplay screenshot](Gameplay.png)
 
 ## How to play
 
