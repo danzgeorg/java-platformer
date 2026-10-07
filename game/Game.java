@@ -40,7 +40,7 @@ public class Game {
     private static Game gameInstance;
     private static JFrame frame;
     private static GameView view;
-    private static int currentLevelNumber = 3; // start at level 1
+    private static int currentLevelNumber = 1;
     private static final int MAX_LEVELS = 3;
     private static boolean transitionInProgress = false;
 
