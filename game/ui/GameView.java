@@ -75,11 +75,11 @@ public class GameView extends UserView implements ActionListener {
 
         // set the appropriate background based on the level type
         if (level instanceof Level1) {
-            background = new ImageIcon("java-project-2025-danzgeorg/data/textures/lvl1background.png").getImage();
+            background = new ImageIcon("data/textures/lvl1background.png").getImage();
         } else if (level instanceof Level2) {
-            background = new ImageIcon("java-project-2025-danzgeorg/data/textures/lvl2background.png").getImage();
+            background = new ImageIcon("data/textures/lvl2background.png").getImage();
         } else if (level instanceof Level3) {
-            background = new ImageIcon("java-project-2025-danzgeorg/data/textures/lvl3background.jpg").getImage();
+            background = new ImageIcon("data/textures/lvl3background.jpg").getImage();
         }
 
         // initialise animation settings after image is loaded

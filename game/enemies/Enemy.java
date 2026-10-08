@@ -27,16 +27,16 @@ public class Enemy extends DynamicBody implements StepListener {
     private static final Shape enemyShape = new BoxShape(1, 1);
 
     // level 1 enemy
-    private static final BodyImage leftEnemyLevel1 = new BodyImage("java-project-2025-danzgeorg/data/enemies/leftSnail.png", 2f);
-    private static final BodyImage rightEnemyLevel1 = new BodyImage("java-project-2025-danzgeorg/data/enemies/rightSnail.png", 2f);
+    private static final BodyImage leftEnemyLevel1 = new BodyImage("data/enemies/leftSnail.png", 2f);
+    private static final BodyImage rightEnemyLevel1 = new BodyImage("data/enemies/rightSnail.png", 2f);
 
     // level 2 enemy
-    private static final BodyImage leftEnemyLevel2 = new BodyImage("java-project-2025-danzgeorg/data/enemies/leftChicken.png", 2f);
-    private static final BodyImage rightEnemyLevel2 = new BodyImage("java-project-2025-danzgeorg/data/enemies/rightChicken.png", 2f);
+    private static final BodyImage leftEnemyLevel2 = new BodyImage("data/enemies/leftChicken.png", 2f);
+    private static final BodyImage rightEnemyLevel2 = new BodyImage("data/enemies/rightChicken.png", 2f);
 
     // level 3 enemy
-    private static final BodyImage leftEnemyLevel3 = new BodyImage("java-project-2025-danzgeorg/data/enemies/leftPig.png", 2f);
-    private static final BodyImage rightEnemyLevel3 = new BodyImage("java-project-2025-danzgeorg/data/enemies/rightPig.png", 2f);
+    private static final BodyImage leftEnemyLevel3 = new BodyImage("data/enemies/leftPig.png", 2f);
+    private static final BodyImage rightEnemyLevel3 = new BodyImage("data/enemies/rightPig.png", 2f);
 
     private boolean movingRight = true; // direction of movement
     private float moveSpeed = 3f; // speed at which the enemy moves

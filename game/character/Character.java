@@ -23,16 +23,16 @@ public class Character extends Walker implements StepListener {
     private static final Shape characterShape = new BoxShape(0.5f,1);
 
     // level 1 character
-    private static final BodyImage RightCharacterLevel1Image = new BodyImage("java-project-2025-danzgeorg/data/characters/rightPinkMan.png",2f);
-    private static final BodyImage LeftCharacterLevel1Image = new BodyImage("java-project-2025-danzgeorg/data/characters/leftPinkMan.png", 2f);
+    private static final BodyImage RightCharacterLevel1Image = new BodyImage("data/characters/rightPinkMan.png",2f);
+    private static final BodyImage LeftCharacterLevel1Image = new BodyImage("data/characters/leftPinkMan.png", 2f);
 
     // level 2 character
-    private static final BodyImage LeftCharacterLevel2Image = new BodyImage("java-project-2025-danzgeorg/data/characters/leftBlueMan.png", 2f);
-    private static final BodyImage RightCharacterLevel2Image = new BodyImage("java-project-2025-danzgeorg/data/characters/rightBlueMan.png", 2f);
+    private static final BodyImage LeftCharacterLevel2Image = new BodyImage("data/characters/leftBlueMan.png", 2f);
+    private static final BodyImage RightCharacterLevel2Image = new BodyImage("data/characters/rightBlueMan.png", 2f);
 
     // level 3 character
-    private static final BodyImage LeftCharacterLevel3Image = new BodyImage("java-project-2025-danzgeorg/data/characters/leftFrogMan.png", 2f);
-    private static final BodyImage RightCharacterLevel3Image = new BodyImage("java-project-2025-danzgeorg/data/characters/rightFrogMan.png", 2f);
+    private static final BodyImage LeftCharacterLevel3Image = new BodyImage("data/characters/leftFrogMan.png", 2f);
+    private static final BodyImage RightCharacterLevel3Image = new BodyImage("data/characters/rightFrogMan.png", 2f);
 
     private boolean facingRight = true;
 

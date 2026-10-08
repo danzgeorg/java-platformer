@@ -93,27 +93,27 @@ public class SoundManager {
 
     private void loadUISounds() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         sounds.put(MAIN_MENU_MUSIC, new SoundClip
-                ("java-project-2025-danzgeorg/data/sounds/UI/main_menu_music.wav"));
+                ("data/sounds/UI/main_menu_music.wav"));
     }
 
     private void loadLevelSounds() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        sounds.put(LEVEL_COMPLETE, new SoundClip("java-project-2025-danzgeorg/data/sounds/misc/level_complete.wav"));
-        sounds.put(GAME_COMPLETE, new SoundClip("java-project-2025-danzgeorg/data/sounds/misc/game_complete.wav"));
-        sounds.put(LEVEL1MUSIC, new SoundClip("java-project-2025-danzgeorg/data/sounds/misc/level1music.wav"));
-        sounds.put(LEVEL2MUSIC, new SoundClip("java-project-2025-danzgeorg/data/sounds/misc/level2music.wav"));
-        sounds.put(LEVEL3MUSIC, new SoundClip("java-project-2025-danzgeorg/data/sounds/misc/level3music.wav"));
+        sounds.put(LEVEL_COMPLETE, new SoundClip("data/sounds/misc/level_complete.wav"));
+        sounds.put(GAME_COMPLETE, new SoundClip("data/sounds/misc/game_complete.wav"));
+        sounds.put(LEVEL1MUSIC, new SoundClip("data/sounds/misc/level1music.wav"));
+        sounds.put(LEVEL2MUSIC, new SoundClip("data/sounds/misc/level2music.wav"));
+        sounds.put(LEVEL3MUSIC, new SoundClip("data/sounds/misc/level3music.wav"));
     }
 
 
     private void loadPickupSound() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        sounds.put(PICKUP, new SoundClip("java-project-2025-danzgeorg/data/sounds/pickup/pickup.wav"));
+        sounds.put(PICKUP, new SoundClip("data/sounds/pickup/pickup.wav"));
     }
 
     private void loadCharacterSounds() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        sounds.put(JUMP, new SoundClip("java-project-2025-danzgeorg/data/sounds/character/jump.wav"));
-        sounds.put(DAMAGE, new SoundClip("java-project-2025-danzgeorg/data/sounds/character/damage.wav"));
-        sounds.put(DEATH, new SoundClip("java-project-2025-danzgeorg/data/sounds/character/death.wav"));
-        sounds.put(DASH, new SoundClip("java-project-2025-danzgeorg/data/sounds/character/dash.wav"));
+        sounds.put(JUMP, new SoundClip("data/sounds/character/jump.wav"));
+        sounds.put(DAMAGE, new SoundClip("data/sounds/character/damage.wav"));
+        sounds.put(DEATH, new SoundClip("data/sounds/character/death.wav"));
+        sounds.put(DASH, new SoundClip("data/sounds/character/dash.wav"));
     }
 
     /**

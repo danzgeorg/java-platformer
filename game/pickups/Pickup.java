@@ -23,11 +23,11 @@ import org.jbox2d.common.Vec2;
 public class Pickup extends StaticBody {
     private static final Shape PickupShape = new BoxShape(1, 2);
     private static final BodyImage BananaImage = new BodyImage
-            ("java-project-2025-danzgeorg/data/items/banana-pickup.png", 2f);
+            ("data/items/banana-pickup.png", 2f);
     private static final BodyImage AppleImage = new BodyImage
-            ("java-project-2025-danzgeorg/data/items/apple-pickup.png", 2f);
+            ("data/items/apple-pickup.png", 2f);
     private static final BodyImage StrawberryImage = new BodyImage
-            ("java-project-2025-danzgeorg/data/items/melon-pickup.png", 1.25f);
+            ("data/items/melon-pickup.png", 1.25f);
 
     public Pickup(World w, Vec2 position) {
         super(w, PickupShape);
