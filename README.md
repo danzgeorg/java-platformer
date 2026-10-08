@@ -33,7 +33,7 @@ The game needs the CityEngine library, which is included in this repo as `CityEn
 2. Unzip `CityEngine40.zip` to get `CityEngine.jar`.
 3. Go to **File > Project Structure > Modules > Dependencies**, click **+**, choose **JARs or Directories** and select `CityEngine.jar`.
 4. Right-click the project root folder and choose **Mark Directory as > Sources Root**, so the `game` package is found.
-5. Run `game.Game`. The working directory must be the project root, so the game can find the `data/` folder.
+5. Run `game.Game` with the project root as the working directory, so the game can find the `data/` folder.
 
 ## How it works
 
